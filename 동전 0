@@ -1,0 +1,11 @@
+https://www.acmicpc.net/status?user_id=joohyun333&problem_id=11047&from_mine=1
+A, B = map(int, input().split())
+coin_list=[int(input()) for _ in range(A)]
+coin_list.reverse()
+R = 0
+for i in range(A):
+    print(i)
+    if B // coin_list[i] >= 1:
+        R += B // coin_list[i]
+        B = B % coin_list[i]
+print(R)
