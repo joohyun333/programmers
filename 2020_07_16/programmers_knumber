@@ -1,0 +1,13 @@
+https://programmers.co.kr/learn/courses/30/lessons/42748
+
+def solution(array, commands):
+    bask = []
+    answer = []
+    for i in range(len(commands)):
+        x,y,z = commands[i]
+        for arrays in range(x-1, y):
+            bask.append(array[arrays])
+            bask.sort()
+        answer.append(bask[z-1])
+        bask.clear()
+    return answer
