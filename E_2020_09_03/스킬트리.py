@@ -35,6 +35,6 @@ def solution(skill, skill_trees):
 
 if __name__ == "__main__":
     skill ="CBD"
-    # skill_trees = ["BACDE", "CBADF", "AECB", "BDA"]
-    skill_trees = ["BACDE", "CBADF", "AECB", "BDA", "AQWER"]
+    skill_trees = ["BACDE", "CBADF", "AECB", "BDA"]
+    # skill_trees = ["BACDE", "CBADF", "AECB", "BDA", "AQWER"]
     print(solution(skill, skill_trees))

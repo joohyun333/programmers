@@ -3,6 +3,7 @@ def solution(arr):
     answer = []
     answer.append(arr[0])
     for i,e in enumerate(arr):
+        print(i, e)
         if answer[-1] == e:
             pass
         else:
