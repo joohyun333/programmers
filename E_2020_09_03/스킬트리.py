@@ -10,6 +10,7 @@ def solution(skill, skill_trees):
     # (이것떔에 많이 헤맴.. 역시 testcase만 믿지 말자..)
     for i, e in enumerate(skill_trees):
         for j in e:
+            print(j)
             if j in skill:
                 s.append(j)
             else:
