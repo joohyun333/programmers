@@ -1,4 +1,5 @@
 # https://programmers.co.kr/learn/courses/30/lessons/12930
+# # 이건 주석 달것도 없다 ㅇㅈ?
 def solution(s):
     answer = list(s.split(" "))
     a = ""
