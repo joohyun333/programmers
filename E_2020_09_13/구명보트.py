@@ -1,7 +1,7 @@
 def solution(people, limit):
     port = [] # limit 채우는 공간
     boat = [] # port에서 limit 까지 채운 인원들 채움.
-    people = sorted(people)
+    people = sorted(people) # 
     people.reverse()
     while people != []:
         if sum(port)+people[0] <= limit:
