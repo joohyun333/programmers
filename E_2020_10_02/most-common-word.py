@@ -2,7 +2,6 @@ from typing import List
 import collections
 import string
 def mostCommonWord(paragraph: str, banned: List[str]) -> str:
-
     strs = ''.join([i.lower() for i in paragraph if i not in string.punctuation])
     result = collections.Counter(strs.split()).most_common()
     for results in result:
