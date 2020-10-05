@@ -14,3 +14,6 @@ matchObj = re.findall(r'\bone\b|\boneself\b|\bonerous\b', 'oneself is the one th
 print(matchObj)
 matchObj = re.findall('oneself|one|onerous', 'oneself is the one thing.')
 print(matchObj)
+b = "aadas"
+print(sorted(b))
+print(b.s)
