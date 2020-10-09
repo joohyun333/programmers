@@ -6,7 +6,7 @@ def solution(s:str) -> int:
     result = []
     if len(s) == 1:
         return 1
-        # testcase 한문자일 경우 ex)"a" return값이 [] 안뜸 고로 한문자는 1로 return
+        # testcase 한문자일 경우 ex)"a" return값이 []이 뜸 고로 한문자는 1로 return
     for j in range(1,(len(s)//2)+1):
         for i in range(0,len(s)+1, j):
             m.append(i)
