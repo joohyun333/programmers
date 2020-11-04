@@ -1,5 +1,3 @@
-import math
-import numpy as np
 def circle(x, y, r):
     board = [[0]*81 for _ in range(25)]
     for X in range(0,81):
