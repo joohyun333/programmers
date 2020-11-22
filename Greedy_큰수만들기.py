@@ -17,7 +17,6 @@
 #             break
 #     return ''.join(answer)
 
-# 다른 사람 코드... 한참 부족하는걸 배운다..
 def solution(number, k):
     s, sk = [], k
     for i, n in enumerate(number):
