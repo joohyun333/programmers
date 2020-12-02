@@ -14,7 +14,7 @@ def solution(key : List, lock: List) -> bool:
     for p in range(4): # 열쇠랑 자물쇠 비교
         for s_x,s_y in start_point:
             for k_x,k_y in key_index:
-                lock_data[s_x+k_x][s_y+k_y] = int(bin(lock_data[s_x+k_x][s_y+k_y]^key[k_x][k_y]),2)
+                lock_data[s_x+k_x][s_y+k_y] = int(bin(lock_data[s_x+k_x][s_y+k_y]^key[k_x][k_y]),2) #비트연산 XOR
             if set([lock_data[i][j] for i,j in lock_index]) == {1}:  #조건충족
                 return True
             lock_data = deepcopy(lock_)
