@@ -3,11 +3,11 @@ def test(data):
     for i in data:
         if i[2] == 0 : #기둥일 경우
             if i[1] == 0 or [i[0], i[1]-1, 0] in data or [i[0]-1, i[1], 1] in data or [i[0], i[1], 1] in data:
-               continue
+               continue # 기둥의 조건을 충족하면 보의 조건으로
             else:return False
         elif i[2] == 1: #보일 경우
             if [i[0], i[1]-1, 0] in data or ([i[0]-1, i[1], 1] in data and [i[0]+1, i[1], 1] in data)or [i[0]+1, i[1]-1, 0] in data:
-                continue
+                continue # 기둥과 보의 조건이 모두 통과 -> T
             else:return False
     return True
 
