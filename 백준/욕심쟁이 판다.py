@@ -37,11 +37,11 @@ def dfs(x, y):
     else:
         data[x][y] = 1
         for i in range(4):
-            nx = x + direction[i][0]
-            ny = y + direction[i][1]
-            if 0 <= nx < n and 0 <= ny < n:
-                if bamboo[x][y] < bamboo[nx][ny]:
-                    data[x][y] = max(data[x][y], dfs(nx, ny) + 1)
+            new_x, new_y= x + direction[i][0], y + direction[i][1]
+            if 0 <= new_x < n and 0 <= new_y < n:
+                if bamboo[x][y] < bamboo[new_x][new_y]:
+                    data[x][y] = max(data[x][y], dfs(new_x, new_y) + 1)
+                    # print(data)
     return data[x][y]
 n = int(input())
 bamboo = [list(map(int, input().split())) for i in range(n)]
