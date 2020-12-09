@@ -6,7 +6,7 @@ def test(data):
                continue
             else:return False
         elif i[2] == 1: #보일 경우
-            if [i[0], i[1]-1, 0] in data or [i[0]+1, i[1]-1, 0] in data or ([i[0]-1, i[1], 1] in data and [i[0]+1, i[1], 1] in data):
+            if [i[0], i[1]-1, 0] in data or ([i[0]-1, i[1], 1] in data and [i[0]+1, i[1], 1] in data)or [i[0]+1, i[1]-1, 0] in data:
                 continue
             else:return False
     return True
