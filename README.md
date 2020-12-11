@@ -5,7 +5,13 @@
     * 그래프와 BFS
     * 다이나믹 프로그래밍
 
-***
+***   
 
->   > ## *수학
+> ## *수학-기초*
+   
+   * [나머지] : (https://www.acmicpc.net/problem/10430, 나머지)
+   * [나머지] : (https://www.acmicpc.net/problem/10430, 나머지)
+   * [나머지] : (https://www.acmicpc.net/problem/10430, 나머지)
+   * [나머지] : (https://www.acmicpc.net/problem/10430, 나머지)
+   
   
