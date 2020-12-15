@@ -23,7 +23,8 @@
     #     return solution(tickets, z[1:])
 #---------------재귀로 푸는게 아닌듯 함....0.75%통과-----------------
 from collections import defaultdict
-def solution(tickets):
+from typing import List
+def solution(tickets:List[str]) -> List[str]:
     data = defaultdict(list)
     for i in sorted(tickets, reverse=True):
         data[i[0]].append(i[1])
