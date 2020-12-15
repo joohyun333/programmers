@@ -1,4 +1,7 @@
-# https://www.acmicpc.net/problem/2805
+> # [나무 자르기](https://www.acmicpc.net/problem/2805 "나무 자르기")
+***
+<pre>
+<code>
 from typing import List
 N, K = map(int,input().split())
 woods: List[int] = sorted(list(map(int, input().split())))
@@ -14,4 +17,22 @@ while min_num < max_num:
         break
 print(mid)
 
-
+</code>
+</pre>
+***   
+> ## 이진 검색 알고리즘 버그
+>   > 이진 탐색 알고리즘의 중앙값을 구할 때 보통 아래와 같은 코드를 작성한다.
+    <pre>
+    <code>
+    mid = (left + right)//2
+    </code>
+    </pre>
+>   > 수학적으로는 잘못된 점은 없으나 컴퓨터에서는 문제가 될 소지가 있다. 두 수를 더하면 항상 각각의 수보다 큰 수가 된다.
+    그러나 자료형에는 보통 최댓값이 있다. left + right 가 자료형의 최댓값을 넘어선다면 자료형이 엄격한 C나 자바에서는 Overflow 오류가 발생하기 때문에 
+    아래와 같이 구현하는 것이 오버플로의 위험이 없다.
+    <pre>
+    <code>
+    mid = left + (right - left)//2
+    </code>
+    </pre>
+>   > 하지만 파이썬은 임의 정밀도 정수형을 지원하기 때문에 이 문제에는 고민할 필요는 없다.
