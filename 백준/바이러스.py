@@ -1,0 +1,22 @@
+# https://www.acmicpc.net/problem/2606
+import collections
+com = int(input())
+link_num = int(input())
+link = collections.defaultdict(list)
+for i in range(link_num):
+    a, b = map(int, input().split())
+    link[a].append(b)
+def search(graph, n):
+    queue = [n]
+    discovered = []
+    while queue:
+        v = queue.pop(0)
+        if v not in discovered:
+            discovered.append(v)
+            for i in graph[v]:
+                if i not in discovered and i not in queue:
+                    queue.append(i)
+        print(queue,discovered)
+    return len(discovered)-1
+print(search(link, 1))
+#======================틀림==============
