@@ -6,6 +6,7 @@ link = collections.defaultdict(list)
 for i in range(link_num):
     a, b = map(int, input().split())
     link[a].append(b)
+    link[b].append(a)
 def search(graph, n):
     queue = [n]
     discovered = []
@@ -16,7 +17,5 @@ def search(graph, n):
             for i in graph[v]:
                 if i not in discovered and i not in queue:
                     queue.append(i)
-        print(queue,discovered)
     return len(discovered)-1
 print(search(link, 1))
-#======================틀림==============
