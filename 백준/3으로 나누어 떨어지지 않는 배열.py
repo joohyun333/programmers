@@ -1,18 +1,29 @@
-# https://www.acmicpc.net/problem/2938
+#https://www.acmicpc.net/problem/2938
 import collections
 N = int(input())
-nums = collections.deque(map(int, input().split()))
-result = []
-stop_point = 0
-# while len(nums)>1:
-#     n = nums.popleft()
-#     if (n+nums[0])%3!=0 or :
-#         result.append(n)
-#     elif (n+nums[0]) % 3 ==0:
-#         stop_point+=1
-#     else:
-#         nums.append(n)
-#     if stop_point == N-1:
-#         print("-1")
-#         break
-print(result)
+data = collections.deque(list(map(int, input().split())))
+stack = []
+while data:
+    # data_N = len(data)
+    v = data.popleft()
+    if not stack:
+        if data[0]+v % 3 != 0:
+           stack.append(v)
+           stack.append(data.popleft())
+        else:
+            data.append(v)
+    elif stack[-1]+v % 3 != 0:
+        stack.append(v)
+    else:data.append(v)
+    print(data, stack)
+
+input()
+a=[[],[],[]]
+for v in map(int,input().split()):a[v%3]+=v,
+if len(a[0])>1+len(a[1]+a[2])or (a[1] and a[2] and not a[0]):print(-1)
+else:
+ r=[]
+ for v in a[0]:
+  if r:r+=(a[1]or a[2]).pop(),
+  r+=v,
+ print(*a[1]+r+a[2])

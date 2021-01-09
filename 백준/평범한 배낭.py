@@ -6,8 +6,8 @@ for i in range(N):
 pack = [[0 for _ in range(K + 1)] for _ in range(N + 1)]
 for i in range(1, N + 1):
     for j in range(1, K + 1):
-        w = thing[i-1][0]
-        v = thing[i-1][1]
+        w = thing[i-1][0] # 무게
+        v = thing[i-1][1] # 가치
         if w > j:
             pack[i][j] = pack[i - 1][j]
         else:
