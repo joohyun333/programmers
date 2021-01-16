@@ -14,6 +14,7 @@ def search(graph, n):
         v = queue.pop(0)
         if v not in discovered:
             discovered.append(v)
+            print(discovered)
             for i in graph[v]:
                 if i not in discovered and i not in queue:
                     queue.append(i)
