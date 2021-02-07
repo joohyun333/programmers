@@ -2,7 +2,7 @@ import collections
 import itertools
 from typing import List
 
-def solution(orders:List[str], course:List[int]):
+def solution(orders:List[str], course:List[int]) ->List[str]:
     strs_counters:List[str] = []
     max_counters:List[int] = collections.defaultdict(lambda: 0)
     for i in orders:
