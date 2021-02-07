@@ -1,18 +1,18 @@
 import collections
 import itertools
+from typing import List
 
-
-def solution(orders, course):
-    strs_counters = []
-    max_counters = collections.defaultdict(lambda: 0)
+def solution(orders:List[str], course:List[int]):
+    strs_counters:List[str] = []
+    max_counters:List[int] = collections.defaultdict(lambda: 0)
     for i in orders:
         for z in range(1,len(i)+1):
             order = list(itertools.combinations(i, z))
             for j in order:
                 j_strs = ''.join(sorted(j))
                 strs_counters.append(j_strs)
-    strs_counters = collections.Counter(strs_counters).most_common()
-    answer = []
+    strs_counters:List[str,int] = collections.Counter(strs_counters).most_common()
+    answer:List[str] = []
     for i,e in strs_counters:
         if len(i) in course and e>1 and e >= max_counters[len(i)]:
             max_counters[len(i)] = e
