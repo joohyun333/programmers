@@ -1,3 +1,4 @@
+# https://programmers.co.kr/learn/courses/30/lessons/72411
 import collections
 import itertools
 from typing import List
