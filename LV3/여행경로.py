@@ -35,6 +35,7 @@ def solution(tickets:List[str]) -> List[str]:
             not_link.append(link.pop())
         else:
             link.append(data[search].pop())
+        print(link, not_link)
     not_link.reverse()
     return not_link
 if __name__ == "__main__":
