@@ -22,11 +22,11 @@ def union_parent(parent,a,b):
     else:parent[x] = y
 
 heapq.heapify(route)
-result = 0
+result = []
 while route:
     time, start, end = heapq.heappop(route)
     if search_parent(parent, start) != search_parent(parent, end):
         union_parent(parent, start, end)
-        result+=time
-
-print(result)
+        result.append(time)
+result.sort()
+print(sum(result[:-1]))
