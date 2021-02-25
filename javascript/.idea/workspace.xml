@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b2cdd7-7432-49f7-a50e-377c04ce885a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript/구름IDE/새로순서 사각형.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/프로그래머스/H-Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/프로그래머스/JadenCase 문자열 만들기 .js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/프로그래머스/기능개발.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../백준/최단거리구하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/구름IDE/계산기.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/구름IDE/계산기.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
       <workItem from="1614016006392" duration="9000" />
       <workItem from="1614016023632" duration="14551000" />
       <workItem from="1614125645678" duration="739000" />
-      <workItem from="1614129746331" duration="11896000" />
+      <workItem from="1614129746331" duration="12774000" />
     </task>
     <servers />
   </component>
@@ -135,22 +129,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614016105713" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1614179211143">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1614198260447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614179211143" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1614179211143">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1614198260447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614179211143" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1614179211143">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1614198260447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614179211143" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1614179211143">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1614198260447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614179211143" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614174943655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
