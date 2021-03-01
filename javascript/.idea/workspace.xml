@@ -20,6 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b2cdd7-7432-49f7-a50e-377c04ce885a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javascript/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/생활코딩/WEB2-javascript-Ajax/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/BFS/숨바꼭질3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/BFS/숨바꼭질4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/라빈-카프/가장 긴 문자열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../풀었던 문제들/Interleaving.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -44,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,7 +72,7 @@
       <recent name="C:\python\programers\programmers\javascript" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.H-Index.js">
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration name="약수의 합.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/구름IDE/약수의 합.js" working-dir="$PROJECT_DIR$/javascript/구름IDE">
       <method v="2" />
     </configuration>
@@ -83,8 +91,12 @@
     <configuration name="계산기.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/구름IDE/계산기.js" working-dir="$PROJECT_DIR$/javascript/구름IDE">
       <method v="2" />
     </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/test/test.js" working-dir="$PROJECT_DIR$/javascript/test">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.H-Index.js" />
         <item itemvalue="Node.js.JadenCase 문자열 만들기 .js" />
         <item itemvalue="Node.js.약수의 합.js" />
@@ -106,6 +118,8 @@
       <workItem from="1614016023632" duration="14551000" />
       <workItem from="1614125645678" duration="739000" />
       <workItem from="1614129746331" duration="12774000" />
+      <workItem from="1614351239292" duration="4380000" />
+      <workItem from="1614395905689" duration="2695000" />
     </task>
     <servers />
   </component>
@@ -129,22 +143,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614016105713" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1614198260447">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1614362708552">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1614198260447">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614362708552" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1614362708552">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1614198260447">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614362708552" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1614362708551">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1614198260447">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614362708551" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1614362708552">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614198260447" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614362708552" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614174943655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

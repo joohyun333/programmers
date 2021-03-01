@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>Click the Button.</h2>
+<p>A script tag with a src attribute is created and placed in the document.</p>
+<p>The PHP file returns a call to a function with the JSON object as a parameter.</p>
+
+<button onclick="clickButton()">Click me!</button>
+
+<p id="demo"></p>
+
+<ul>
+
+</ul>
+
+<script>
+    fetch('https://reqres.in/api/users',{
+        method: 'POST', //요청 방법 선택
+        headers: {
+            'Content-Type': 'application/json' //요청헤더 타입 변경
+        },
+        body: JSON.stringify({ //요청바디 json화
+            name: 'User 1'
+        })
+    }).then(res  => {
+            if(res.ok == false){ //상태코드가 404인 경우
+                console.log("Err");
+            }
+            else
+                return res.json() //응답받은 json 데이터 토큰화
+        })
+        .then(data => console.log(data))
+</script>
+
+</body>
+</html>
+
+// Example POST method implementation:
+
+postData('http://example.com/answer', {answer: 42})
+.then(data => console.log(JSON.stringify(data))) // JSON-string from `response.json()` call
+.catch(error => console.error(error));
+
+function postData(url = '', data = {}) {
+// Default options are marked with *
+return fetch(url, {
+method: 'POST', // *GET, POST, PUT, DELETE, etc.
+mode: 'cors', // no-cors, cors, *same-origin
+cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+credentials: 'same-origin', // include, *same-origin, omit
+headers: {
+'Content-Type': 'application/json',
+// 'Content-Type': 'application/x-www-form-urlencoded',
+},
+redirect: 'follow', // manual, *follow, error
+referrer: 'no-referrer', // no-referrer, *client
+body: JSON.stringify(data), // body data type must match "Content-Type" header
+})
+.then(response => response.json()); // parses JSON response into native JavaScript objects
+}
