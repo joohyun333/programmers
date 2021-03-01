@@ -1,15 +1,15 @@
 N = int(input())
-stairs = []
+drink = []
 for i in range(N):
-    stairs.append(int(input()))
-stairs_dp = []
-if len(stairs) < 3 :
-    print(sum(stairs))
-else:
-    stairs_dp.append(stairs[0])
-    stairs_dp.append(max(stairs[0]+stairs[1], stairs[1]))
-    stairs_dp.append(max(stairs[0]+stairs[2], stairs[1]+stairs[2]))
-    for i in range(3, N):
-        temp  = max(stairs[i]+stairs[i-1]+stairs_dp[i-3], stairs[i]+stairs_dp[i-2])
-        stairs_dp.append(temp)
-    print(stairs_dp)
+    drink.append(int(input()))
+DP = [0]*(N)
+for i in range(N):
+    if i == 0:
+        DP[i] = drink[0]
+    elif i ==1:
+        DP[i] = drink[0]+drink[1]
+    elif i == 2:
+        DP[i] = max(DP[1], drink[0]+drink[2], drink[1]+drink[2])
+    else:
+        DP[i]  = max(drink[i]+drink[i-1]+DP[i-3], drink[i]+DP[i-2], DP[i-1])
+print(DP[N-1])
