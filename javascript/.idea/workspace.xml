@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b2cdd7-7432-49f7-a50e-377c04ce885a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/생활코딩/WEB2-javascript-Ajax/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../백준/BFS/숨바꼭질3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../백준/BFS/숨바꼭질4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../백준/라빈-카프/가장 긴 문자열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../풀었던 문제들/Interleaving.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/그리디/tes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/이진탐색/랜선자르기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +115,7 @@
       <workItem from="1614129746331" duration="12774000" />
       <workItem from="1614351239292" duration="4380000" />
       <workItem from="1614395905689" duration="2695000" />
+      <workItem from="1615081312504" duration="57000" />
     </task>
     <servers />
   </component>

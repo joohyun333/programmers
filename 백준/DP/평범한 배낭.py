@@ -13,3 +13,5 @@ for i in range(1, N + 1):
         else:
             pack[i][j] = max(v + pack[i - 1][j - w], pack[i - 1][j])
 print(pack[N][K])
+
+
