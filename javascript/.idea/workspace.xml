@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b2cdd7-7432-49f7-a50e-377c04ce885a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../백준/그리디/tes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../백준/이진탐색/랜선자르기.py" afterDir="false" />
-    </list>
+    <list default="true" id="52b2cdd7-7432-49f7-a50e-377c04ce885a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +113,7 @@
       <workItem from="1614351239292" duration="4380000" />
       <workItem from="1614395905689" duration="2695000" />
       <workItem from="1615081312504" duration="57000" />
+      <workItem from="1615281235116" duration="594000" />
     </task>
     <servers />
   </component>
