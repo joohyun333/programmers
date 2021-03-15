@@ -30,9 +30,15 @@ for n in range(1, N + 1):
                 arr[i][j] = arr[i][j - 1]
             else:
                 arr[i][j] = False
-
+    print("m")
+    for i in arr:
+        print(i)
     if arr[a_len][b_len] == True:
         print("Data set %s: yes" % str(n))
     else:
         print("Data set %s: no" % str(n))
 
+# 3
+# cat tree tcraete
+# cat tree catrtee
+# cat tree cttaree

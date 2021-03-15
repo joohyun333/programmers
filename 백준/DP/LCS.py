@@ -10,4 +10,6 @@ for i in range(1,len(b)):
             DP[i][j] = DP[i-1][j-1]+1
         else:
             DP[i][j] = max(DP[i - 1][j],DP[i][j-1])
+for i in DP:
+    print(i)
 print(DP[len(b)-1][len(a)-1])
