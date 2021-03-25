@@ -6,6 +6,7 @@ arr = [input() for _ in range(N)]
 
 result = 0
 for m in itertools.product(itertools.product([0, 1], repeat=M), repeat=N):
+    print(m)
     total = []
     for a in range(N):
         s = ""
@@ -14,6 +15,7 @@ for m in itertools.product(itertools.product([0, 1], repeat=M), repeat=N):
                 s += str(arr[a][b])
             elif m[a][b] == 0:
                 s += " "
+        print(s, list(map(int, s.split())))
         total.append(sum(list(map(int, s.split()))))
     row = sum(total)
 
