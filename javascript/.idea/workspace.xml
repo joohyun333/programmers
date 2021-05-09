@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b2cdd7-7432-49f7-a50e-377c04ce885a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../백준/BFS/치즈_2638.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/DP/돌다리 건너기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,6 +118,7 @@
       <workItem from="1615081312504" duration="57000" />
       <workItem from="1615281235116" duration="594000" />
       <workItem from="1615357816995" duration="96000" />
+      <workItem from="1619619679610" duration="39000" />
     </task>
     <servers />
   </component>
@@ -156,6 +158,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614362708552" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1619619728096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619619728096" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614174943655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
