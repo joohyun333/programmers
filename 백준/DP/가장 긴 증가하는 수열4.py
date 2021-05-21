@@ -17,5 +17,7 @@ for i,e in enumerate(DP):
     if e>result:
         result = e
         result_arr = DP_arr[i]
+for i in DP_arr:
+    print(i)
 print(result)
 print(' '.join(map(str, result_arr)))
