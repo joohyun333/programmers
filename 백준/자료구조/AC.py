@@ -22,7 +22,7 @@ def solution(p, s, n):
         else:
             return "[" + ','.join(map(str, result[::-1])) + "]"
     else:
-        return "error"
+        return "error" 
 
 
 if __name__ == "__main__":
