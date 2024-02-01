@@ -1,4 +1,5 @@
 import math
+import copy
 from collections import deque
 N, L, R = map(int, input().split())
 directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -7,6 +8,7 @@ answer = 0
 while True:
     visited = [[False for _ in range(N)] for _ in range(N)]
     is_not_move = True
+    new_graph = copy.deepcopy(graph)
     for i in range(N):
         for j in range(N):
             if not visited[i][j]:
@@ -28,9 +30,11 @@ while True:
                 if move_count > 1:
                     is_not_move = False
                     avg = math.floor(move_sum / move_count)
-                    answer += 1
                     for ry, rx in route:
-                        graph[ry][rx] = avg
+                        new_graph[ry][rx] = avg
     if is_not_move:
         print(answer)
         break
+    else:
+        answer += 1
+        graph = new_graph
